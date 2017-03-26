@@ -1,3 +1,5 @@
+-- change Settings Folder to ~/Library/Application Support/live-coding-broadcast-studio
+
 -- create lcbs.icns
 
 TEST change title to "Live Coding Broadcast Studio (LCBS)"
