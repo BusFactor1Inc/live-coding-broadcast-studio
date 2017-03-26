@@ -9,7 +9,7 @@
 	<key>CFBundleGetInfoString</key>
 	<string>Live Coding Broadcast Studio (LCBS)</string>
 	<key>CFBundleExecutable</key>
-	<string>Live Coding Broadcast Studio</string>
+	<string>Live Coding Broadcast Studio (LCBS)</string>
 	<key>CFBundleIdentifier</key>
 	<string>ca.busfactor1.live-coding-broadcast-studio</string>
 	<key>CFBundlePackageType</key>
