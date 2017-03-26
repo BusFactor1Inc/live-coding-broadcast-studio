@@ -1,6 +1,4 @@
--- change .app name from OBS.app to "Live Coding Broadcast Studio.app"
-
--- change .app version to 1.0.0.
+-- create lcbs.icns
 
 TEST change title to "Live Coding Broadcast Studio (LCBS)"
 
@@ -11,3 +9,8 @@ TEST change title to "Live Coding Broadcast Studio (LCBS)"
 DONE
 
 -- change colour of "Stop Streaming" button to RED
+
+-- change .app name from OBS.app to "Live Coding Broadcast Studio.app"
+
+-- change .app version to 1.0.0.
+
