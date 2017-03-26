@@ -3,8 +3,8 @@
 candidate_paths = "bin obs-plugins data".split()
  
 plist_path = "../cmake/osxbundle/Info.plist"
-icon_path = "../cmake/osxbundle/obs.icns"
-run_path = "../cmake/osxbundle/obslaunch.sh"
+icon_path = "../cmake/osxbundle/lcbs.icns"
+run_path = "../cmake/osxbundle/lcbslaunch.sh"
  
 #not copied
 blacklist = """/usr /System""".split()

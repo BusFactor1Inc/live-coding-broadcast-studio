@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>OBS.icns</string>
+	<string>LCBS.icns</string>
 	<key>CFBundleName</key>
-	<string>OBS</string>
+	<string>Live Coding Broadcast Studio</string>
 	<key>CFBundleGetInfoString</key>
-	<string>OBS - Free and Open Source Streaming/Recording Software</string>
+	<string>Live Coding Broadcast Studio (LCBS)</string>
 	<key>CFBundleExecutable</key>
-	<string>OBS</string>
+	<string>Live Coding Broadcast Studio</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.obsproject.obs-studio</string>
+	<string>ca.busfactor1.live-coding-broadcast-studio</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleSignature</key>
@@ -22,5 +22,9 @@
 	<true/>
 	<key>LSAppNapIsDisabled</key>
 	<true/>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.developer-tools</string>
 </dict>
 </plist>

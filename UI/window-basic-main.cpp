@@ -4990,9 +4990,9 @@ void OBSBasic::UpdateTitleBar()
 	const char *sceneCollection = config_get_string(App()->GlobalConfig(),
 			"Basic", "SceneCollection");
 
-	name << "OBS ";
-	if (previewProgramMode)
-		name << "Studio ";
+	name << "Live Coding Broadcast Studio (LCBS) by BusFactor1 Inc.";
+	//if (previewProgramMode)
+	//	name << "Studio ";
 
 	name << App()->GetVersionString();
 	if (App()->IsPortableMode())

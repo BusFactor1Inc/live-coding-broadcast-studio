@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8.12)
 
-project(obs-studio)
+project(live-coding-broadcasting-studio)
 
 option(BUILD_CAPTIONS "Build captions" FALSE)
 
