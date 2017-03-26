@@ -3852,6 +3852,10 @@ void OBSBasic::StartStreaming()
 
 	SaveProject();
 
+	QPalette p=palette();   
+	p.setBrush(QPalette::ButtonText, Qt::red);
+	ui->streamButton->setPalette(p);
+
 	ui->streamButton->setEnabled(false);
 	ui->streamButton->setText(QTStr("Basic.Main.Connecting"));
 
@@ -4090,6 +4094,10 @@ void OBSBasic::StreamingStop(int code)
 
 	ui->streamButton->setText(QTStr("Basic.Main.StartStreaming"));
 	ui->streamButton->setEnabled(true);
+
+	QPalette p=palette();   
+	p.setBrush(QPalette::ButtonText, Qt::black);
+	ui->streamButton->setPalette(p);
 
 	if (sysTrayStream) {
 		sysTrayStream->setText(ui->streamButton->text());
